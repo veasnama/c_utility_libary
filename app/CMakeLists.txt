@@ -1,0 +1,5 @@
+set(BIN_NAME "FILE_IO")
+set(SOURCES main.c)
+add_executable(${BIN_NAME} ${SOURCES} )
+target_link_libraries(${BIN_NAME} PRIVATE  FileIO)
+target_link_libraries(${BIN_NAME} PRIVATE B_CON)
